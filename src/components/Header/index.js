@@ -12,8 +12,8 @@ export default function Header() {
       <Top>
         <Logo source={logo} />
         <Title>Sergio</Title>
-        <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
       </Top>
+      <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
     </Container>
   );
 }
