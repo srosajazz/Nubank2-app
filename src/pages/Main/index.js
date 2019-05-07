@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '~/components/Header';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Tabs from '~/components/Tabs';
+import Menu from '~/components/Menu';
 
 import {
   Container,
@@ -19,8 +20,8 @@ export default function Main() {
   return (
     <Container>
       <Header />
-
       <Content>
+        <Menu />
         <Card>
           <CardHeader>
             <Icon name="attach-money" size={28} color="777" />
