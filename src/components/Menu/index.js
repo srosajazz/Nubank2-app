@@ -3,7 +3,7 @@ import React from 'react';
 import QRCode from 'react-native-qrcode';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {
-  Container, Code, Nav, NavItem, NavText,
+  Container, Code, Nav, NavItem, NavText, SignOutButton, SignOutButtonText,
 } from './styles';
 
 export default function Menu() {
@@ -39,6 +39,10 @@ export default function Menu() {
           <NavText>App configuration</NavText>
         </NavItem>
       </Nav>
+
+      <SignOutButton onPress={() => {}}>
+        <SignOutButtonText>App Logout</SignOutButtonText>
+      </SignOutButton>
     </Container>
   );
 }
